@@ -27,3 +27,23 @@ Image: ibmcom/codewind-java-profiler-language-server:latest
 Status: Exited (0) 2 months ago
 Created: 72 days ago
 ```
+**Получение исходников:**
+>```bash
+> $ git clone https://github.com/Korrnals/godocker.git
+>```
+
+**Запуск утилиты:**
+>```bash
+> # Переходим в проект
+> cd ./godocker
+>
+> # Запуск без компиляции:
+> $ go run godocker.go
+>```
+>```bash
+># Сборка пакета
+>$ go build godocker
+>
+># Запуск утилиты:
+>$ ./godocker
+>```
